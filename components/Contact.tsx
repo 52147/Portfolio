@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <div
       id="contact"
-      className="flex justify-center items-center min-h-screen bg-gray-100"
+      className="mt-12 flex justify-center items-center min-h-screen bg-gray-100"
       style={{
         backgroundImage: `url('Rectangle 34.png')`,
         backgroundSize: "cover",
@@ -12,17 +12,17 @@ export default function Contact() {
       }}
     >
       <form
-        className="flex flex-col bg-white pl-32 pr-32 pt-12 rounded-full"
+        className="flex flex-col bg-white p-8 md:p-16 rounded-full"
         style={{
-          width: "700px", // Set a fixed width to maintain circle shape
-          height: "700px", // Equal height and width for a circle
+          width: "90%", // Use percentage for responsive width
+          maxWidth: "700px", // Max width for large screens
+          aspectRatio: "1", // Maintain aspect ratio to keep it a circle
           boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
         }}
       >
-        <div className="mt-12 mr-auto ml-32 text-4xl italic text-black max-md:max-w-full mb-16">
+        <div className="pb-4 text-center text-4xl italic text-black mb-8 md:mb-16">
           Contact Me
         </div>
-
         <label htmlFor="fullname" className="text-sm font-medium">
           Full Name
         </label>

@@ -2,4 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-  
+.hover-image {
+  aspect-ratio: 1.67; /* Sets the aspect ratio correctly in CSS */
+  background-repeat: no-repeat;
+  transition: transform 0.3s ease; /* Smooth transition for hover effect */
+  border: none; /* Remove border */
+  outline: none; /* Remove outline */
+}
+
+.hover-image:hover {
+  transform: scale(1.05); /* Slightly enlarge the image on hover */
+}

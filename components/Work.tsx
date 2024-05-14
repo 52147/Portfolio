@@ -46,19 +46,19 @@ export default function Work() {
             </div>
           </div>
           <a href="https://www.go2pos.com/marketing.html">
-          <img
-            loading="lazy"
-            src="/Rectangle 4.png" // Adjusted to correct path starting from the root
-            className="shrink-0 max-w-full w-[231px]"
-            style={{
-              aspectRatio: "1.67", // This sets the aspect ratio correctly in JSX
-              backgroundImage: 'url("../public/Rectangle 4.png")',
-              backgroundColor: "lightgray",
-              backgroundPosition: "-1px -65.435px",
-              backgroundSize: "100% 148.456%",
-              backgroundRepeat: "no-repeat",
-            }}
-          />
+            <img
+              loading="lazy"
+              src="/Rectangle 4.png" // Adjusted to correct path starting from the root
+              className="shrink-0 max-w-full w-[231px] shadow-xl hover-image"
+              style={{
+                aspectRatio: "1.67", // This sets the aspect ratio correctly in JSX
+                backgroundImage: 'url("../public/Rectangle 4.png")',
+                backgroundColor: "lightgray",
+                backgroundPosition: "-1px -65.435px",
+                backgroundSize: "100% 148.456%",
+                backgroundRepeat: "no-repeat",
+              }}
+            />
           </a>
         </div>
 
@@ -107,19 +107,19 @@ export default function Work() {
           loading="lazy"
           className="mt-16 max-w-full border border-solid border-neutral-300 stroke-[1px] stroke-neutral-300 w-[1002px] max-md:mt-10"
         />
-        <div className="flex gap-5 justify-between px-0.5 mt-12 max-w-full w-[1148px] max-md:flex-wrap max-md:mt-10">
+        <div className="pl-4 flex gap-5 justify-between px-0.5 mt-12 max-w-full w-[1148px] max-md:flex-wrap max-md:mt-10">
           <div className="flex flex-col py-0.5 my-auto max-md:max-w-full">
             <div className="flex gap-4 max-md:flex-wrap">
-              <div className="pl-3.5 text-xl text-black">Software Engineer</div>
+              <div className="text-xl text-black">Software Engineer</div>
               <div className="my-auto text-sm text-stone-500">
                 April 2022 - September 2023
               </div>
             </div>
-            <div className="ml-4 text-base text-stone-500 max-md:max-w-full">
+            <div className="text-base text-stone-500 max-md:max-w-full">
               Diamond Tofu
             </div>
             <div className="flex gap-2.5 mt-1 text-xs text-black max-md:flex-wrap">
-              <div className="justify-center p-2.5 ml-3.5 whitespace-nowrap border border-black border-solid">
+              <div className="justify-center p-2.5 whitespace-nowrap border border-black border-solid">
                 React.js
               </div>
               <div className="justify-center p-2.5 whitespace-nowrap border border-black border-solid">
@@ -146,18 +146,18 @@ export default function Work() {
             </div>
           </div>
           <a href="https://diamondtofucareer.com/">
-          <img
-            loading="lazy"
-            src="/Rectangle 4 (1).png" // Adjusted to correct path starting from the root
-            className="shrink-0 max-w-full w-[231px]"
-            style={{
-              aspectRatio: "1.67", // This sets the aspect ratio correctly in JSX
-              backgroundColor: "lightgray",
-              backgroundPosition: "-1px -65.435px",
-              backgroundSize: "100% 148.456%",
-              backgroundRepeat: "no-repeat",
-            }}
-          />
+            <img
+              loading="lazy"
+              src="/Rectangle 4 (1).png" // Adjusted to correct path starting from the root
+              className="shrink-0 max-w-full w-[231px] shadow-xl hover-image border-0"
+              style={{
+                aspectRatio: "1.67", // This sets the aspect ratio correctly in JSX
+                backgroundColor: "lightgray",
+                backgroundPosition: "-1px -65.435px",
+                backgroundSize: "100% 148.456%",
+                backgroundRepeat: "no-repeat",
+              }}
+            />
           </a>
         </div>
         <img
@@ -199,7 +199,7 @@ export default function Work() {
           <img
             loading="lazy"
             src="/Rectangle 4 (2).png" // Adjusted to correct path starting from the root
-            className="shrink-0 max-w-full w-[231px]"
+            className="shrink-0 max-w-full w-[231px] shadow-xl hover-image "
             style={{
               aspectRatio: "1.67", // This sets the aspect ratio correctly in JSX
               backgroundColor: "lightgray",
