@@ -45,7 +45,7 @@ export default function Work() {
               </div>
             </div>
           </div> */}
-          <a href="https://www.go2pos.com/marketing.html">
+          {/* <a href="https://www.go2pos.com/marketing.html">
             <img
               loading="lazy"
               src="/Rectangle 4.png" // Adjusted to correct path starting from the root
@@ -59,7 +59,7 @@ export default function Work() {
                 backgroundRepeat: "no-repeat",
               }}
             />
-          </a>
+          </a> */}
         </div>
 
         <img
