@@ -61,7 +61,6 @@ export default function Contact() {
           className="border border-gray-300 focus:border-black focus:outline-none p-2 mt-1"
           style={{ minHeight: "100px" }}
         />
-
         <button
           type="submit"
           className="mt-8 mx-auto px-10 py-2 text-sm font-medium border border-black bg-transparent hover:bg-black hover:text-white transition-colors"

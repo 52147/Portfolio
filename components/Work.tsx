@@ -11,7 +11,7 @@ export default function Work() {
           WORK EXPERIENCES
         </div>
         <div className="flex gap-5 justify-between pl-5 mt-16 max-w-full w-[1148px] max-md:flex-wrap max-md:mt-10 ">
-          <div className="flex flex-col items-start py-0.5 my-auto max-md:max-w-full">
+          {/* <div className="flex flex-col items-start py-0.5 my-auto max-md:max-w-full">
             <div className="flex gap-4 max-md:flex-wrap">
               <div className="text-xl text-black">Software Engineer</div>
               <div className="my-auto text-sm text-stone-500">
@@ -44,7 +44,7 @@ export default function Work() {
                 Google Cloud Platform
               </div>
             </div>
-          </div>
+          </div> */}
           <a href="https://www.go2pos.com/marketing.html">
             <img
               loading="lazy"
