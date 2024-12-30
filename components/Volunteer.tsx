@@ -46,7 +46,7 @@ export default function Volunteer() {
             <img
               loading="lazy"
               src="/Rectangle 4 (3).png"
-              className="shrink-0 max-w-full aspect-[1.69] w-[234px] shadow-xl hover-image"
+              className="shrink-0 max-w-full aspect-[1.69] w-[234px] shadow-xl hover-image rounded-xl	"
             />
           </a>
         </div>

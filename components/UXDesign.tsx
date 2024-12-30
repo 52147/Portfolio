@@ -18,7 +18,7 @@ export default function UXDesign() {
                   <img
                     loading="lazy"
                     src="/Rectangle 38.png" // Adjusted to correct path starting from the root
-                    className="w-full aspect-[1.4] max-w-[470px] max-md:max-w-full shadow-xl hover-image"
+                    className="w-full aspect-[1.4] max-w-[470px] max-md:max-w-full shadow-xl hover-image rounded-xl"
                   />
                 </a>
                 <div className="mt-11 max-md:mt-10 max-md:max-w-full">
@@ -32,7 +32,7 @@ export default function UXDesign() {
                   <img
                     loading="lazy"
                     src="/Rectangle 38 (2).png"
-                    className="mt-32 w-full aspect-[1.51] max-w-[470px] max-md:mt-10 max-md:max-w-full shadow-xl hover-image"
+                    className="mt-32 w-full aspect-[1.51] max-w-[470px] max-md:mt-10 max-md:max-w-full shadow-xl hover-image rounded-xl"
                   />
                 </a>
 
@@ -51,7 +51,7 @@ export default function UXDesign() {
                   <img
                     loading="lazy"
                     src="/Rectangle 38 (1).png" // Adjusted to correct path starting from the root
-                    className="w-full aspect-[1.4] max-w-[470px] max-md:max-w-full shadow-xl hover-image"
+                    className="w-full aspect-[1.4] max-w-[470px] max-md:max-w-full shadow-xl hover-image rounded-xl"
                   />
                 </a>
                 <div className="mt-11 max-md:mt-10 max-md:max-w-full">
@@ -64,7 +64,7 @@ export default function UXDesign() {
                   <img
                     loading="lazy"
                     src="/Rectangle 38 (3).png"
-                    className="mt-32 w-full aspect-[1.51] max-w-[470px] max-md:mt-10 max-md:max-w-full shadow-xl hover-image"
+                    className="mt-32 w-full aspect-[1.51] max-w-[470px] max-md:mt-10 max-md:max-w-full shadow-xl hover-image rounded-xl"
                   />
                 </a>
                 <div className="mt-11 max-md:mt-10 max-md:max-w-full">

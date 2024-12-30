@@ -13,6 +13,67 @@ export default function Work() {
         <div className="flex gap-5 justify-between pl-5 mt-16 max-w-full w-[1148px] max-md:flex-wrap max-md:mt-10 ">
           <div className="flex flex-col items-start py-0.5 my-auto max-md:max-w-full">
             <div className="flex gap-4 max-md:flex-wrap">
+              <div className="text-xl text-black">Full-Stack Developer</div>
+              <div className="my-auto text-sm text-stone-500">
+                September 2024 - Present
+              </div>
+            </div>
+            <div className="text-base text-stone-500 max-md:max-w-full">
+              NiuNiuBox
+            </div>
+            <div className="flex gap-2.5 self-stretch mt-1 text-xs text-black max-md:flex-wrap">
+              <div className="justify-center p-2.5 border border-black border-solid">
+                Vue.js
+              </div>
+              <div className="justify-center p-2.5 whitespace-nowrap border border-black border-solid">
+                PHP
+              </div>
+              <div className="justify-center p-2.5 whitespace-nowrap border border-black border-solid">
+                MySQL
+              </div>
+              <div className="justify-center p-2.5 border border-black border-solid">
+                Redis
+              </div>
+              <div className="justify-center p-2.5 border border-black border-solid">
+                UI/UX Design
+              </div>
+              <div className="justify-center p-2.5 whitespace-nowrap border border-black border-solid">
+                AWS Elastic Beanstalk
+              </div>
+              <div className="justify-center p-2.5 border border-black border-solid">
+                AWS EC2
+              </div>
+              <div className="justify-center p-2.5 border border-black border-solid">
+                AWS RDS
+              </div>
+              <div className="justify-center p-2.5 border border-black border-solid">
+                AWS Amplify
+              </div>
+            </div>
+          </div>
+          <a href="https://niuniubox.com/">
+            <img
+              loading="lazy"
+              src="/Screenshot 2024-12-30 at 2.34.02 PM.png" // Adjusted to correct path starting from the root
+              className="shrink-0 max-w-full w-[231px] shadow-xl hover-image rounded-xl"
+              style={{
+                aspectRatio: "1.67", // This sets the aspect ratio correctly in JSX
+                backgroundImage: 'url("../public/Rectangle 4.png")',
+                backgroundColor: "lightgray",
+                backgroundPosition: "-1px -65.435px",
+                backgroundSize: "100% 148.456%",
+                backgroundRepeat: "no-repeat",
+              }}
+            />
+          </a>
+        </div>
+        <img
+          loading="lazy"
+          className="mt-12 max-w-full border border-solid border-neutral-300 stroke-[1px] stroke-neutral-300 w-[1002px] max-md:mt-10"
+        />
+        <div className="flex gap-5 justify-between pl-5 mt-16 max-w-full w-[1148px] max-md:flex-wrap max-md:mt-10 ">
+          <div className="flex flex-col items-start py-0.5 my-auto max-md:max-w-full">
+            <div className="flex gap-4 max-md:flex-wrap">
               <div className="text-xl text-black">Software Engineer</div>
               <div className="my-auto text-sm text-stone-500">
                 March 2024 - Present
@@ -49,7 +110,7 @@ export default function Work() {
             <img
               loading="lazy"
               src="/Rectangle 4.png" // Adjusted to correct path starting from the root
-              className="shrink-0 max-w-full w-[231px] shadow-xl hover-image"
+              className="shrink-0 max-w-full w-[231px] shadow-xl hover-image rounded-xl"
               style={{
                 aspectRatio: "1.67", // This sets the aspect ratio correctly in JSX
                 backgroundImage: 'url("../public/Rectangle 4.png")',
@@ -149,7 +210,7 @@ export default function Work() {
             <img
               loading="lazy"
               src="/Rectangle 4 (1).png" // Adjusted to correct path starting from the root
-              className="shrink-0 max-w-full w-[231px] shadow-xl hover-image border-0"
+              className="shrink-0 max-w-full w-[231px] shadow-xl hover-image border-0 rounded-xl"
               style={{
                 aspectRatio: "1.67", // This sets the aspect ratio correctly in JSX
                 backgroundColor: "lightgray",
@@ -199,7 +260,7 @@ export default function Work() {
           <img
             loading="lazy"
             src="/Rectangle 4 (2).png" // Adjusted to correct path starting from the root
-            className="shrink-0 max-w-full w-[231px] shadow-xl hover-image "
+            className="shrink-0 max-w-full w-[231px] shadow-xl hover-image rounded-xl"
             style={{
               aspectRatio: "1.67", // This sets the aspect ratio correctly in JSX
               backgroundColor: "lightgray",
